@@ -1,0 +1,334 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: fantasy, 'Arial Narrow';
+}
+
+body{
+    background-color: #f9a21f;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+.main-nav{
+    background-color: #f9a21f;
+    align-items: stretch;
+    padding: 1%;
+}
+
+.main-nav h1{
+    color: #101010;
+    font-weight: 650;
+    font-style: oblique;
+    font-size: 1.66em;
+}
+
+h2{
+    color: #141414;
+}
+ 
+
+.main-nav ul{
+    padding-top: 0.3em;
+}
+
+.nav a{
+    padding:0%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #101010;
+    text-decoration: none;
+    font-size: 1.32em;
+    border-radius: 3em;
+}
+
+.nav a:hover{
+    background-color: rgba(197, 168, 5, 0.582);
+}
+
+.main-nav li{
+    display: inline;        
+    padding-right: 0.7em;
+}
+
+.main-section{
+    background-color: #252525;
+    margin: 1em;
+    margin-top: 0.2em;
+    border: 6px solid white;
+    border-radius: 3.3em;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+
+.program-editor-header{
+    margin: 1em;
+}
+
+.section-header div{
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.section-header button:hover{
+    background-color: rgba(250, 250, 250, 0.685);
+}
+
+.program-window{
+    margin: 0.6em;
+    padding: 0.6em;
+}
+
+.workout-day{
+    padding: 2em;
+    padding-bottom: 1em;
+    background-color: #f9a21f;
+    border: 3px solid white;
+    border-radius: 3em;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 1em;
+}
+
+.delete-exercise-btn{
+    margin-top: 0.4em;
+}
+
+.workout-day button{
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 2em;
+    padding: 0.1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.workout-day button:hover{
+    background-color: rgba(255, 0, 0, 0.692);
+}
+
+.workout-day .add-exercise-btn{
+    margin-top: 1.8em;
+    border: 2px solid green;
+    padding: 0.9em;
+}
+
+.workout-day .add-exercise-btn:hover{
+    background-color: green;
+}
+
+.workout-day .delete-day-button{
+    padding: 0.9em;
+    margin-top: 1.8em;
+    margin-left: 3.9em;
+}
+
+.day-footer-buttons{
+    width: fit-content;
+    margin: auto;
+}
+
+.add-day-btn{
+    width: auto;
+    margin: auto;
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 2em;
+    padding: 0.9em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.add-day-btn:hover{
+    background-color: green;
+}
+
+.workout-day label{
+    font-size: larger;
+    color: #680a53;
+    text-shadow: 1px 1px 1.5px rgba(107, 107, 107, 0.582);
+                  
+}
+
+.exercise-form{
+    margin-top: 0.75em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exercise-form button{
+    position: relative;
+    top: 0.45em;
+}
+
+.saved-programs-wndw{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    padding: 2%;
+    min-height: 115px;
+    height:fit-content;
+    width: 66.8%;
+    background-color: #680a53;
+    position: absolute;
+    top: 26vh;
+    left: 14%;
+    border: 3px solid white;
+    border-radius: 2.2em;
+    padding-right: 3em;
+}
+
+.selectable-program{
+    background-color: #f9a21f;
+    margin:auto;
+    padding: 0.6em;
+    border: 2px solid white;
+    border-radius: 1.1em;
+}
+
+.selectable-program:hover{
+    background-color: #c78f3bc9;
+}
+
+.close-btn{
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    right: 5%;
+    background-image: url("../images/close\ window.png");
+    background-size: contain;
+    border-radius: 25%;
+}
+
+.no-programs-text{
+    color: white;
+    width: fit-content;
+    margin: auto;
+}
+
+.exercise-form input, .exercise-form label {
+    display:block;
+}
+
+.exercise-form div{
+    float: left;
+}
+
+input{
+    max-width: fit-content !important;
+}
+
+.rep-range input {
+    display:inline;
+}
+
+.number-sets input{
+    width: 4.5em
+}
+
+.section-header button{
+    font-size: 1.8vw;
+    margin-left: 0.6%;
+    margin-right: 0.6%;
+    background-color: white;
+    border: 3px solid #680a53;
+    border-radius: 2em;
+    padding: 0.8em;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+}
+
+.workouts{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.num-box{
+    width: 2.9em;
+}
+
+.make-rest-day-button{
+    display: inline;
+}   
+
+.workout-name{
+    display: inline;
+}
+
+.workout-header{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+.workout-header input{
+    position: relative;
+    bottom: 0.16em;
+}
+
+.program-name-form{
+    width:fit-content;
+    margin: auto;
+    margin-bottom: 1.3em;
+}
+
+.program-name-form label{
+    padding-top: 1em;
+    font-size: 24;
+    color: #680a53;
+    text-shadow: -1px 1px 0 #FFF,
+                  1px 1px 0 #FFF,
+                  1px -1px 0 #FFF,
+                 -1px -1px 0 #FFF;
+}
+
+.program-name-form input{
+    position: relative;
+    bottom: 0.2em;
+}
+
+
+.info-btn{
+    background-image: url("../images/info.png");
+    background-size: 1.6em;
+    background-position: center;
+    position: relative;
+    width: 1.5em;
+    justify-self: end;
+    align-self: center;
+    padding: 0px !important;
+    border-radius: 50% !important;
+    border: none !important; 
+    margin-left: 2.8em !important;
+}
+
+.info-btn:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.section-header h1{
+    width: fit-content;
+    margin: auto;
+    font-weight: 160;
+    font-size: 24;
+    color: #680a53;
+    text-shadow: -1px 1px 0 #FFF,
+                  1px 1px 0 #FFF,
+                  1px -1px 0 #FFF,
+                 -1px -1px 0 #FFF;
+}
+
+.tracked-exercise-list{
+    padding: 3em;
+}
+
+.section-header .todays-workout-btn{
+    margin-right: 5em;
+}

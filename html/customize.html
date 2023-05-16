@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize program</title>
+    <link rel="stylesheet" href="../css/styles.css"/> 
+</head>
+<body> 
+    <header>
+        <nav class="main-nav nav">
+            <h1>Michael's Progressive Overload Tool</h1>
+            <ul>
+                <li> <a href="index.html">Tracking</a></li>
+                <li> <a href="customize.html">Programming</a></li>
+                <li> <a href="how.html"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="program-editing-section main-section">
+        <nav class="program-editor-header section-header">
+            <div>
+                <button class="save-and-edit-btn">Save Program</button>
+                <button class="set-current-btn">Set as Current Program</button>
+                <button class="create-btn">Create New Program</button>
+                <button class="my-programs-btn">My Programs</button>
+                <button class="info-btn"></button>
+            </div>
+        </nav>
+        <div class="program-window">
+            <form class="program-name-form">
+                    <label>Program Name: </label>
+                    <input class="program-name" type="text" required></h1>
+            </form>
+            <div class="workouts">
+                <div class="workout-day" id="day-id-0">
+                    <header class="workout-header">
+                        <form>
+                            <label>Workout Name: </label>
+                            <input class="workout-name"></input>
+                        </form>
+                    </header>
+                    <div class="exercise-list">
+                        <form class="exercise-form" id="exercise-id-0">
+                            <div class="exercise-name">
+                                <label class="exercise-label"> Excersise: </label>
+                                <input class="exer-name-input" type="text" required></input>
+                            </div>
+                            <div class="number-sets">
+                                <label class="sets-label"> # Sets: </label>
+                                <input class="exer-num-sets-input num-box" type="number" required min="1"></input>
+                            </div>
+                            <div class="rep-range">
+                                <label class="rep-range-label"> Rep Range: </label>
+                                <input class="exer-rep-range-lower-input num-box" type="number" required></input>
+                                <p style="display: inline;">-</p>
+                                <input class="exer-rep-range-upper-input num-box" type="number" required></input>
+                            </div>
+                            <button class="delete-exercise-btn" id="exer-delete-button-0" data-exercise-id="exercise-id-0">Remove Exercise</button>
+                        </form>
+                        <div class="day-footer-buttons">
+                            <button class="add-exercise-btn">Add Exercise</button>
+                            <button class="delete-day-button" id="day-delete-button-0" data-day-id="day-id-0">Remove Day</button> 
+                        </div>
+                    </div>
+                </div>
+                <button class="add-day-btn">Add Day</button>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="../js/scriptB.js"></script>
+</body>
+</html>

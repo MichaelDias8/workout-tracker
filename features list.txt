@@ -1,0 +1,11 @@
+  -BASE FEATURES-
+- create, edit and save workout programs
+- easily track the amount of reps (& with what weight) I do in a workout
+- view past workouts 
+
+  -BONUS FEATURES-
+give a recommended amount of reps for each exercise in a workout
+display graph of progress across workouts 
+
+
+
